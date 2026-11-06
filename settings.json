@@ -1,0 +1,20 @@
+{
+  "keywords": [
+    "부동산",
+    "증시"
+  ],
+  "feeds": [
+    {
+      "name": "매일경제 증권",
+      "url": "https://www.mk.co.kr/rss/50200011/"
+    },
+    {
+      "name": "매일경제 경제",
+      "url": "https://www.mk.co.kr/rss/30100041/"
+    },
+    {
+      "name": "구글 뉴스",
+      "url": "https://news.google.com/rss?hl=ko&gl=KR&ceid=KR:ko"
+    }
+  ]
+}

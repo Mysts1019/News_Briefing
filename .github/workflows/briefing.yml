@@ -1,0 +1,57 @@
+# =============================================================
+# 매일 아침 뉴스 브리핑 자동 갱신
+#
+# 1) 정해진 시간에 GitHub 서버가 briefing.py 를 실행하고
+# 2) 바뀐 news.json, index.html 을 저장소에 커밋·푸시하면
+# 3) Vercel 이 새 커밋을 보고 사이트를 다시 배포합니다.
+#
+# 필요한 설정: 저장소 Settings > Secrets and variables > Actions 에
+#              GEMINI_API_KEY 를 등록해야 요약이 만들어집니다.
+# =============================================================
+name: Daily News Briefing
+
+on:
+  schedule:
+    # cron 은 세계 표준시(UTC) 기준입니다. 22:00 UTC = 한국시간 오전 7시
+    # (GitHub 사정에 따라 몇 분~수십 분 늦게 시작될 수 있습니다.)
+    - cron: "0 22 * * *"
+  workflow_dispatch: # Actions 탭에서 "Run workflow" 버튼으로 바로 실행할 수 있습니다.
+
+permissions:
+  contents: write # 결과 파일을 커밋·푸시하기 위한 권한
+
+concurrency:
+  group: daily-briefing
+  cancel-in-progress: false
+
+jobs:
+  briefing:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: 저장소 내려받기
+        uses: actions/checkout@v4
+
+      - name: Python 준비
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 브리핑 만들기
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python briefing.py
+
+      - name: 바뀐 내용 커밋·푸시
+        run: |
+          # 커밋 작성자를 워크플로를 만든 GitHub 계정으로 지정합니다.
+          # (Vercel 이 "알 수 없는 작성자"라며 배포를 막는 일을 피하기 위함)
+          git config user.name "${{ github.actor }}"
+          git config user.email "${{ github.actor_id }}+${{ github.actor }}@users.noreply.github.com"
+          git add news.json index.html
+          if git diff --cached --quiet; then
+            echo "바뀐 내용이 없어 커밋하지 않습니다."
+            exit 0
+          fi
+          git commit -m "뉴스 브리핑 자동 갱신 ($(TZ=Asia/Seoul date '+%Y-%m-%d %H:%M'))"
+          git push

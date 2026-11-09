@@ -22,6 +22,7 @@
 # ----- 1. 도구 불러오기 ---------------------------------------
 import html  # &nbsp; 같은 HTML 특수 표기를 원래 글자로 바꿉니다.
 import json  # JSON 글자를 만들고 파일로 저장합니다.
+import os  # 환경변수(GitHub Actions 의 비밀 값)를 읽습니다.
 import re  # 글자의 패턴을 찾아 바꿔 줍니다.
 import sys  # 화면 출력 설정을 바꾸고, 프로그램을 끝낼 때 씁니다.
 import time  # 다시 시도하기 전에 잠시 기다릴 때 씁니다.
@@ -237,8 +238,14 @@ def select_articles(articles, keywords):
 
 
 def load_api_key():
-    """.env 파일에서 GEMINI_API_KEY 값을 찾습니다. 없으면 빈 글자를 돌려줍니다."""
+    """GEMINI_API_KEY 값을 찾습니다. 없으면 빈 글자를 돌려줍니다.
+
+    1) 환경변수(GitHub Actions 의 Secrets)에 있으면 그 값을 쓰고
+    2) 없으면 .env 파일에서 찾습니다. (내 컴퓨터에서 실행할 때)
+    """
     # 키는 비밀번호와 같습니다. 화면이나 파일에 출력하지 않습니다.
+    if os.environ.get("GEMINI_API_KEY"):
+        return os.environ["GEMINI_API_KEY"].strip()
     try:
         # utf-8-sig 는 메모장이 파일 맨 앞에 넣는 표시(BOM)까지 처리해 줍니다.
         with open(ENV_FILE, encoding="utf-8-sig") as file:

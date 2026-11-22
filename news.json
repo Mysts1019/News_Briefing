@@ -1,83 +1,83 @@
 {
-  "generated_at": "2026-11-21 11:53",
+  "generated_at": "2026-11-22 10:43",
   "keywords": [
     "부동산",
     "증시"
   ],
   "articles": [
     {
-      "title": "역대 최대 IPO 성공한 앤트로픽…오픈AI도 증시 입성 탄력 받나",
-      "link": "https://www.mk.co.kr/news/stock/12215211",
-      "date": "2026-11-21 11:41",
+      "title": "“8000억 담았는데 하룻밤 14% 폭락?”…떨어지는 칼날 잡은 서학개미",
+      "link": "https://www.mk.co.kr/news/economy/12215436",
+      "date": "2026-11-22 10:39",
       "feed": "매일경제 증권",
       "source": "매일경제",
       "matched_keywords": [
         "증시"
       ],
       "ai_summary": [
-        "- 앤트로픽이 역대 최대 규모의 기업공개(IPO)에 성공했다.",
-        "- 앤트로픽의 3분기 매출은 전분기 대비 45% 증가했다.",
-        "- 오픈AI도 매출이 급증한 가운데 적자를 줄이고 수익성을 입증해야 하는 과제를 안고 있다."
+        "- 서학개미들이 3주 동안 엔비디아를 8187억 원어치 순매수했다.",
+        "- 미국 증시에서 엔비디아 주가는 하루 만에 14% 이상 폭락했고 3주 만에 41% 넘게 떨어졌다.",
+        "- SEC 회계 조사까지 겹치며 악재가 이어지고 있다."
       ]
     },
     {
-      "title": "AI 투매에 미 증시 급락, 조정장 진입…AI 거품 터지기 시작",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQMXducFhxSHY2b1BuWkdjQllVSjI0LVRzQjFMMktxSDE2eE1BNFc2NUJUN3N4eU9qdi13RXhEbUlTVGM1WHNGVVhBWWNfZVYtczFMZGdqd25idm8zaHdNZ2tJMjlud3dtc2x6MGtNMmtzUWp5VG41NjRjNVlsVk1sY2Jn?oc=5",
-      "date": "2026-11-21 08:56",
+      "title": "코스피 ‘곡소리’ 날 때 혼자 ‘잇몸미소’…삼성전자 등에 업은 로봇株, 계속 뛸까?",
+      "link": "https://www.mk.co.kr/news/business/12215429",
+      "date": "2026-11-22 10:18",
+      "feed": "매일경제 증권",
+      "source": "매일경제",
+      "matched_keywords": [
+        "증시"
+      ],
+      "ai_summary": [
+        "- 국내 증시가 급락하는 와중에도 로봇주는 나 홀로 상승세를 이어갔다.",
+        "- 이는 삼성전자의 휴머노이드 로봇 공개 기대감 등이 영향을 미쳤다.",
+        "- 자세한 내용은 원문 확인 필요"
+      ]
+    },
+    {
+      "title": "냉랭한 증시에도 앤트로픽 담았다…액티브 ETF, 상장 첫날부터 매수",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBRVExIZndVVDB2WXJRWmdROTZlcE41aEV4OGRIMWVXcW9ESFpaaG5DX1NOQkNnZjhrUkhxeHdoWThKTDQ4OEdtUGRoTXgySmpIYkVGV0p1dEh5YlhaM1dIN2hfNXRpUXZPdUFJeTVESml5dw?oc=5",
+      "date": "2026-11-22 08:35",
       "feed": "구글 뉴스",
-      "source": "한겨레",
+      "source": "KB Think",
       "matched_keywords": [
         "증시"
       ],
       "ai_summary": [
-        "- 인공지능(AI) 관련 투매 현상으로 인해 미국 증시가 급락하고 조정장에 진입했다.",
-        "- 나스닥이 5%대 폭락을 기록하는 등 기술주 전반에 패닉 매도세가 나타났다.",
-        "- 엔비디아와 앤트로픽 등 주요 인공지능 관련 종목들이 큰 폭으로 하락했다."
+        "- 냉랭한 증시 상황 속에서도 앤트로픽을 담은 액티브 ETF가 상장 첫날부터 매수세를 보였다.",
+        "- 역대 최대 규모의 앤트로픽 IPO와 AI 투자 심리를 두고 거품론과 유동성 발작 등 다양한 우려가 제기되고 있다.",
+        "- 12월 증시의 변동성 확대가 예상되는 가운데 AI는 투자한 만큼 벌 수 있는지에 대한 의문이 나오고 있다."
       ]
     },
     {
-      "title": "엔비디아 호실적도 못 막았다…나스닥, 기술주 매도에 5.3% 폭락",
-      "link": "https://www.mk.co.kr/news/stock/12215112",
-      "date": "2026-11-21 06:24",
-      "feed": "매일경제 증권",
-      "source": "매일경제",
-      "matched_keywords": [
-        "증시"
-      ],
-      "ai_summary": [
-        "- 20일(현지시간) 미국 뉴욕증시 주요 지수가 일제히 급락했다.",
-        "- 엔비디아의 호실적과 앤트로픽의 상장 흥행에도 인공지능 관련 기술주를 중심으로 매도세가 이어졌다.",
-        "- 자세한 내용은 원문 확인 필요"
-      ]
-    },
-    {
-      "title": "뉴욕증시, AI 기술주 매도세에 혼조 출발… 앤트로픽 상장 이틀째 10% 급락",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNM3B5QVRkNkkwRS00VzFXUkxXeEM5N0IwNGp5ZDVabER0aVdqUWVtOV9MemxLU01LTko2aGo3Z3NXWGZLd21lLWwyUTEtTjg0c1JhNl9TMENwM1VSb090N0x3SXhFRzdjZDFtWTd6RVktQjlFUVNobHA2Y0FzZ1k2X0pmcFV5VlpUYXfSAZ4BQVVfeXFMUF9ibzF0azNQSC1uSEs0cGlraXN2eThoM2VUUmg2UmFhNGQwWnF1ajdOX2JnSWpxYUVnZlZpOUtTVUxoQWg2dE5GM04xZmczTUNRZFdybVpCS01OV2FyYmJVWndsTGNUcjNFWGNiNWptR2tvaGl4dUZNVWxRYVJ0VWNzMDNob3Rjak9RQkcwSEFoakFsazBhU1hsdGkwVWc?oc=5",
-      "date": "2026-11-21 00:48",
+      "title": "AI 불확실성 vs 美 블랙프라이데이 기대…코스피 변동성 장세 [주간전망]",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9JX0k3Y1RXcUxFRUJxQVFoZl9jMktTVlRmZFc2c0dIX3JuUHJSa2VvdXFsWE1pUi1WVUJGMnUwUXY4UkdGSDZSREkzMURmU2ZZWnBUb1VhR1NBUQ?oc=5",
+      "date": "2026-11-22 08:00",
       "feed": "구글 뉴스",
-      "source": "Chosunbiz",
+      "source": "한국경제",
       "matched_keywords": [
         "증시"
       ],
       "ai_summary": [
-        "- 뉴욕증시는 인공지능(AI) 기술주 매도세 영향으로 혼조세를 보이며 출발했다.",
-        "- 앤트로픽은 상장 이틀째에 10% 급락하는 모습을 보였다.",
+        "- 코스피는 AI 불확실성으로 인해 변동성 장세를 보이고 있다.",
+        "- 미국 블랙프라이데이에 대한 기대감이 함께 작용하고 있다.",
         "- 자세한 내용은 원문 확인 필요"
       ]
     },
     {
-      "title": "부동산 조정은 일생일대 기회 … 싱가포르 호텔 등 주목을",
-      "link": "https://www.mk.co.kr/news/stock/12213880",
-      "date": "2026-11-19 17:46",
+      "title": "“앤트로픽 상장했는데 내 주식도 오를까”…수혜주 살펴보니",
+      "link": "https://www.mk.co.kr/news/stock/12215326",
+      "date": "2026-11-21 19:12",
       "feed": "매일경제 증권",
       "source": "매일경제",
       "matched_keywords": [
-        "부동산"
+        "증시"
       ],
       "ai_summary": [
-        "- 글로벌 투자 환경이 고금리 전환 기조로 접어든 가운데 부동산 글로벌 큰손들이 투자 전략의 적극적 전환이 필요하다고 입을 모았다.",
-        "- 자산 양극화가 빠르게 나타날 것으로 예상되는 가운데 부동산 조정은 일생일대의 기회로 싱가포르 호텔 등에 주목해야 한다고 언급되었다.",
-        "- 자세한 내용은 원문 확인 필요"
+        "- 미국 인공지능 기업 앤트로픽이 나스닥에 상장하면서 국내 증시에서 수혜주에 대한 관심이 커지고 있다.",
+        "- SKT, 삼성전자, SK하이닉스 등이 수혜주로 꼽히며 특히 SKT가 보유한 지분 가치는 5조원으로 추산된다.",
+        "- 반도체, IT서비스, 전력기기까지 관련 산업 전반으로 관심이 확대되고 있다."
       ]
     }
   ],
